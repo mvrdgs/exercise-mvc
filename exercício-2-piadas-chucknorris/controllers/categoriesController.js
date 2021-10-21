@@ -5,3 +5,7 @@ const listCategories = async (req, res) => {
 
   return res.status(200).render('categories', { categories });
 };
+
+module.exports = {
+  listCategories,
+};
